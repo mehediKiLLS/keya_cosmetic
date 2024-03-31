@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="keya_cosmetics_demo.Create_reports_on_employeesController">
+   <children>
+      <Button layoutX="97.0" layoutY="272.0" mnemonicParsing="false" onAction="#SelectEmployeButtonOnClick" text="Select Employe" />
+      <ComboBox fx:id="SelectTypeComboBox" layoutX="214.0" layoutY="109.0" prefWidth="150.0" />
+      <Button layoutX="404.0" layoutY="285.0" mnemonicParsing="false" onAction="#ReturnToDashboardButtonOnClick" text="Return to dashboard" />
+      <Label prefHeight="81.0" prefWidth="605.0" style="-fx-background-color: Green;" text="     Create Reports On Employees" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

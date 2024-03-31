@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="keya_cosmetics_demo.jnlp">
+  <information>
+    <title>keya_cosmetics_demo</title>
+    <vendor>Asus</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="keya_cosmetics_demo.jar" size="16917" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="keya_cosmetics_demo.Keya_cosmetics_demo"  name="keya_cosmetics_demo" />
+  <update check="always"/>
+</jnlp>
